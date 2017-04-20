@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{77D81A34-CC8B-48FD-8F1F-C5F29321544D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{D608FFEC-3042-45B1-90F3-C61B4F7BE169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{A28FBE94-CA6D-431A-9B2B-7B7CD4E0D7A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extractor", "Extractor", "{D69C6F92-E2B8-4724-89AE-92360FA74B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velir.Environment.Foundation.Extractor", "src\Foundation\Extractor\code\Velir.Environment.Foundation.Extractor.csproj", "{16A75ADF-B0B6-4F67-9EAC-ABAA01C35A4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreInstaller", "SitecoreInstaller", "{01B5903E-8805-40FB-BDF2-48C01C9109EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velir.Environment.Feature.SitecoreInstaller", "src\Feature\Velir.Environment.Feature.SitecoreInstaller\Velir.Environment.Feature.SitecoreInstaller.csproj", "{C249FD08-3199-46DC-B9D9-1FAB82B877D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16A75ADF-B0B6-4F67-9EAC-ABAA01C35A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A75ADF-B0B6-4F67-9EAC-ABAA01C35A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A75ADF-B0B6-4F67-9EAC-ABAA01C35A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A75ADF-B0B6-4F67-9EAC-ABAA01C35A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C249FD08-3199-46DC-B9D9-1FAB82B877D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C249FD08-3199-46DC-B9D9-1FAB82B877D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C249FD08-3199-46DC-B9D9-1FAB82B877D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C249FD08-3199-46DC-B9D9-1FAB82B877D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D69C6F92-E2B8-4724-89AE-92360FA74B62} = {D608FFEC-3042-45B1-90F3-C61B4F7BE169}
+		{16A75ADF-B0B6-4F67-9EAC-ABAA01C35A4E} = {D69C6F92-E2B8-4724-89AE-92360FA74B62}
+		{01B5903E-8805-40FB-BDF2-48C01C9109EE} = {77D81A34-CC8B-48FD-8F1F-C5F29321544D}
+		{C249FD08-3199-46DC-B9D9-1FAB82B877D9} = {01B5903E-8805-40FB-BDF2-48C01C9109EE}
+	EndGlobalSection
+EndGlobal

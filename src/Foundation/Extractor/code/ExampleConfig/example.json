@@ -1,0 +1,12 @@
+﻿{
+	"SourceZipPath": "G:\\Software\\Sitecore\\Installers\\8.2\\Sitecore 8.2 rev. 160729.zip",
+	"DestinationRootPath": "D:\\Projects\\Environment\\_test",
+	"PathsToCopy": [{
+			"RelativeSourcePath": "Sitecore 8.2 rev. 160729\\Data",
+			"RelativeDestinationPath": "Data"
+		}, {
+			"RelativeSourcePath": "Sitecore 8.2 rev. 160729\\Website",
+			"RelativeDestinationPath": "Website"
+		}
+	]
+}
